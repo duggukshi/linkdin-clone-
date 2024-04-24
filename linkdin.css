@@ -1,0 +1,519 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html,
+body {
+  overflow-x: hidden;
+  height: 100vh;
+  width: 100%;
+}
+.navbar {
+  height: 80px;
+  width: 1128px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav .logo {
+  background-image: url(Linkedin-logo-png.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 105px;
+  margin-top: 20px;
+  animation: all 0.2;
+}
+nav .logo:hover {
+  cursor: pointer;
+}
+nav .tab-container {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  height: 60px;
+  margin-left: 330px;
+  text-align: center;
+}
+nav div .tabs {
+  font-size: 21px;
+  color: rgba(74, 69, 69, 0.8);
+  margin-left: 40px;
+  transition: all 0.7;
+}
+nav div .tabs:hover {
+  opacity: 1;
+  cursor: pointer;
+  color: black;
+}
+nav div p {
+  font-size: 12px;
+  margin-top: 2px;
+  color: rgba(74, 69, 69, 0.7);
+  transition: all 0.7;
+}
+nav div p:hover {
+  color: black;
+}
+nav div .last-tab {
+  border-right: 1px solid rgba(128, 128, 128, 0.4);
+  border-left: 1px solid rgba(128, 128, 128, 0.4);
+  padding-right: 15px;
+  padding-left: 12px;
+}
+nav div .join-tab {
+  font-weight: 550;
+  color: rgba(74, 69, 69, 0.85);
+  background-color: white;
+  border-radius: 30px;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  padding-top: 15px;
+  margin-left: 20px;
+  transition: all 0.2;
+}
+nav div .join-tab:hover {
+  cursor: pointer;
+  background-color: rgba(128, 128, 128, 0.13);
+  color: rgba(0, 0, 0, 0.7);
+  transition: all 0.5;
+}
+
+nav div .sign-tab {
+  border: 1.5px solid #0869ca;
+  border-radius: 30px;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  padding-top: 15px;
+  color: #0869ca;
+  font-weight: 600;
+  margin-left: 120px;
+  position: absolute;
+  right: 220px;
+  transition: all 0.2;
+}
+nav div .sign-tab:hover {
+  cursor: pointer;
+  background-color: #116dca16;
+  color: rgba(0, 0, 0, 0.83);
+}
+main .hero-img {
+  background-image: url(bodyimg.svg);
+  height: 580px;
+  width: 700px;
+  position: absolute;
+  top: 220px;
+  right: 4px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+main .form-container {
+  height: 800px;
+  width: 600px;
+  position: absolute;
+  top: 130px;
+  left: 195px;
+}
+main div .hero-title {
+  color: #b24020;
+  font-size: 55px;
+  font-weight: lighter;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+main div .input-container {
+  height: 650px;
+  width: 500px;
+  display: block;
+  color: rgb(92, 87, 87);
+  font-weight: 500;
+  padding-top: 35px;
+  font-size: 15px;
+  font-weight: 500;
+}
+main div input {
+  height: 54.8px;
+  width: 408px;
+  border-radius: 4px;
+  border: 1.5px solid rgb(91, 86, 86);
+  margin-top: 8px;
+  text-indent: 10px;
+  transition: all 0.5;
+}
+main div input:hover {
+  border: 2px solid black;
+  background-color: rgba(158, 161, 161, 0.189);
+}
+
+main div .pass-input {
+  position: relative;
+  top: 27px;
+  height: px;
+}
+main div a {
+  color: #0869ca;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  top: 27px;
+  transition: all 0.5;
+}
+main div a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  color: #0960b6;
+}
+
+main div .submit-cont {
+  width: 408px;
+  height: 40px;
+  margin-top: 58px;
+}
+main .submit-cont button {
+  width: 408px;
+  height: 48px;
+  border: none;
+  background-color: #0869ca;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 25px;
+  transition: all 0.5;
+}
+main .submit-cont button:hover {
+  background-color: #07417b;
+  cursor: pointer;
+}
+
+main div .horizental {
+  width: 408px;
+  height: 10px;
+  margin-top: 45px;
+  text-align: center;
+}
+main div .or-hr {
+  height: 20px;
+  width: 40px;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.804);
+  margin-top: -17px;
+  margin-left: 198px;
+  align-items: center;
+  padding: 0px 2px 2px 10px;
+}
+main div .user-policy {
+  margin-top: 25px;
+  font-size: 12px;
+}
+main div .google-cont {
+  width: 408px;
+  height: 40px;
+  margin-top: 58px;
+}
+
+main .google-cont button {
+  width: 408px;
+  height: 48px;
+  border: 1px solid rgba(63, 62, 62, 0.83);
+  background-color: white;
+  color: rgba(63, 62, 62, 0.83);
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 25px;
+  transition: all 0.5;
+  margin-top: -18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5;
+}
+main .google-cont button:hover {
+  border: 2px solid black;
+  background-color: rgba(158, 161, 161, 0.087);
+  cursor: pointer;
+}
+main div img {
+  height: 30px;
+  width: 30px;
+  background-size: contain;
+}
+
+main .joinlink-cont button {
+  width: 408px;
+  height: 48px;
+  border: 1px solid rgba(63, 62, 62, 0.83);
+  background-color: white;
+  color: rgba(63, 62, 62, 0.83);
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 25px;
+  transition: all 0.5;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .joinlink-cont button:hover {
+  background-color: rgba(158, 161, 161, 0.122);
+  cursor: pointer;
+}
+main .collab-art {
+  height: 400px;
+  width: 1120px;
+  margin-top: 75px;
+  display: flex;
+}
+main div .collab-left {
+  height: 400px;
+  width: 420px;
+}
+main div .big-textcoll {
+  color: black;
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: lighter;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+main div .small-textcoll {
+  color: black;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: lighter;
+  margin-top: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+main div .collab-right {
+  height: 400px;
+  width: 650px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30px;
+}
+main div .box-1 {
+  width: 125px;
+  height: 50px;
+  border: 1.5px solid rgba(63, 62, 62, 0.83);
+  background-color: white;
+  color: rgba(63, 62, 62, 0.83);
+  font-weight: 550;
+  font-size: 15px;
+  border-radius: 25px;
+  transition: all 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main div .box-1:hover {
+  background-color: rgba(158, 161, 161, 0.122);
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.76);
+}
+main div .box-2 {
+  width: 205px;
+  height: 50px;
+  border: 1.5px solid rgba(63, 62, 62, 0.83);
+  background-color: white;
+  color: rgba(63, 62, 62, 0.83);
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5;
+}
+main div .box-2:hover {
+  background-color: rgba(158, 161, 161, 0.122);
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.76);
+}
+main div .box-3 {
+  width: 130px;
+  height: 50px;
+  border: 1.5px solid rgba(63, 62, 62, 0.83);
+  background-color: white;
+  color: rgba(63, 62, 62, 0.83);
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5;
+}
+main div .box-3:hover {
+  background-color: rgba(158, 161, 161, 0.122);
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.76);
+}
+main div .box-4 {
+  width: 138px;
+  height: 50px;
+  border: 1.5px solid rgba(63, 62, 62, 0.83);
+  background-color: white;
+  color: rgba(63, 62, 62, 0.83);
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5;
+}
+main div .box-4:hover {
+  background-color: rgba(158, 161, 161, 0.122);
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.76);
+}
+main div .box-5 {
+  width: 125px;
+  height: 50px;
+  border: 1.5px solid rgba(63, 62, 62, 0.83);
+  background-color: white;
+  color: rgba(63, 62, 62, 0.83);
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5;
+}
+main div .box-5:hover {
+  background-color: rgba(158, 161, 161, 0.122);
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.76);
+}
+main div .box-6 {
+  width: 140px;
+  height: 50px;
+  border: 1.5px solid rgba(63, 62, 62, 0.83);
+  background-color: white;
+  color: rgba(63, 62, 62, 0.83);
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5;
+}
+main div .box-6:hover {
+  background-color: rgba(158, 161, 161, 0.122);
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.76);
+}
+main div .box-7 {
+  width: 230px;
+  height: 50px;
+  border: 1.5px solid rgba(63, 62, 62, 0.83);
+  background-color: white;
+  color: rgba(63, 62, 62, 0.83);
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5;
+}
+main div .box-7:hover {
+  background-color: rgba(158, 161, 161, 0.122);
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.76);
+}
+main div .box-8 {
+  width: 200px;
+  height: 50px;
+  border: 1.5px solid rgba(63, 62, 62, 0.83);
+  background-color: white;
+  color: rgba(63, 62, 62, 0.83);
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5;
+}
+main div .box-8:hover {
+  background-color: rgba(158, 161, 161, 0.122);
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.76);
+}
+main div .box-9 {
+  width: 170px;
+  height: 50px;
+  border: 1.5px solid rgba(63, 62, 62, 0.83);
+  background-color: white;
+  color: rgba(63, 62, 62, 0.83);
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5;
+}
+main div .box-9:hover {
+  background-color: rgba(158, 161, 161, 0.122);
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.76);
+}
+main div .box-10 {
+  width: 110px;
+  height: 50px;
+  border: 1.5px solid #0869ca;
+  background-color: white;
+  color: #0869ca;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  margin-left: 6px;
+  justify-content: center;
+  transition: all 0.5;
+}
+main div .box-10:hover {
+  cursor: pointer;
+  background-color: #116dca16;
+  color: rgba(0, 0, 0, 0.76);
+}
+
+main div .btn-group1 {
+  height: 50px;
+  width: 620px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  margin-left: 4px;
+}
+main div .btn-group2 {
+  height: 50px;
+  width: 540px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -100px;
+}
+main div .btn-group3 {
+  height: 50px;
+  width: 505px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -150px;
+  margin-left: 5px;
+}
